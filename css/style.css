@@ -119,6 +119,7 @@
     margin-right: 18px;
 }
 .featured-works__content h1{
+    white-space: nowrap;
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
