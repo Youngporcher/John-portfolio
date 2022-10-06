@@ -260,6 +260,6 @@
     }
     .featured-works__container .item{
         padding: 0 18px;
-        flex: 0 0 100%;
+        flex: 0 0 90%;
     }
 }
