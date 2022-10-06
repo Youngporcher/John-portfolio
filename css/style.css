@@ -252,8 +252,12 @@
         line-height: 24px;
 
     }
-    .featured-works__container .line:nth-child(2) ~ * {
-        display: none;
+    .featured-works__container  {
+        display: flex;
+        overflow: auto;
     }
-
+    .featured-works__container .item{
+        padding: 0 18px;
+        flex: 0 0 100%;
+    }
 }

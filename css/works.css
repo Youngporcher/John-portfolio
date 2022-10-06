@@ -89,7 +89,5 @@
         line-height: 24px;
 
     }
-    .featured-works__container .line:nth-child(4) ~ * {
-        display: none;
-    }
+
 }
