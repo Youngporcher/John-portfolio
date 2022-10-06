@@ -1,42 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Heebo',sans-serif;
-    color: #21243D;
-}
-
-a{
-    text-decoration: none;
-    color: #000;
-}
-
-.line{
-    border-bottom: 1px solid #E0E0E0;
-    margin: 30px 0;
-}
-header{
-    font-weight: 500;
-    font-size: 20px;
-    width: 1032px;
-    line-height: 29px;
-    text-align: right;
-    margin: 27px auto 140px auto;
-
-}
-header ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
-header li {
-    margin-left: 33px;
-}
 .about-me{
     width: 856px;
-    margin: auto auto 70px auto;
+    margin: 140px auto 70px auto;
     display: flex;
 }
 
@@ -138,7 +102,7 @@ header li {
 }
 .featured-works{
     width: 858px;
-    margin: auto;
+    margin:auto auto 130px auto;
 }
 .featured-works__header{
     font-weight: 400;
@@ -182,36 +146,10 @@ header li {
     font-size: 16px;
     line-height: 24px;
 }
-footer{
-    width: 235px;
-    margin: 130px auto auto auto;
-}
-.icons{
-    display: flex;
-    justify-content: space-between;
-}
-.copyright{
-    margin: 26px 0 54px 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-}
 
 @media screen and (max-width: 991px) {
-    header{
-        margin-bottom: 48px;
-        width: 100vw;
-    }
     main{
         width: 100vw;
-    }
-    header ul{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    header li {
-        margin: 0;
     }
     .about-me {
         width: 100vw;
@@ -224,7 +162,7 @@ footer{
         margin: 0 24px;
     }
     .about-me img{
-        margin:0 0 43px 0;
+        margin:48px 0 43px 0;
         width: 170px;
         height: 170px;
     }
@@ -278,6 +216,7 @@ footer{
     }
     .featured-works{
         width: 100vw;
+        margin-bottom: 58px;
     }
     .featured-works__container .item {
         align-items: center;
